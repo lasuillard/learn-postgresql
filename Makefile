@@ -19,13 +19,13 @@ help: Makefile  ## Show help
 # =============================================================================
 install:  ## Install deps
 	uv python install
-	uv sync --frozen --all-packages --all-extras
+	uv sync --frozen --all-packages
 	pre-commit install --install-hooks
 	cp -n .vscode/mcp.json.example .vscode/mcp.json
 .PHONY: install
 
 update:  ## Update deps and tools
-	uv sync --upgrade --all-extras
+	uv sync --upgrade
 	pre-commit autoupdate
 .PHONY: update
 
