@@ -1,4 +1,4 @@
-# postgres-examples
+# learn-postgresql
 
 Personal study elements and examples for PostgreSQL.
 
