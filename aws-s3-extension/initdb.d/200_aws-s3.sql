@@ -22,7 +22,7 @@ BEGIN
         query := query,
         file_path := "path",
         options := 'FORMAT CSV, HEADER',
-        -- ! TODO: These values are sure sensitive, but hard-coded here for demonstration purposes
+        -- NOTE: These values are sure sensitive, but hard-coded here for demonstration purposes
         bucket := 'bucket',
         region := NULL,
         access_key := 'user',
@@ -51,7 +51,7 @@ BEGIN
         file_path := "path",
         column_list := "columns",
         options := '(FORMAT CSV, HEADER)',
-        -- ! TODO: These values are sure sensitive, but hard-coded here for demonstration purposes
+        -- NOTE: These values are sure sensitive, but hard-coded here for demonstration purposes
         bucket := 'bucket',
         region := NULL,
         access_key := 'user',
