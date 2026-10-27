@@ -1,27 +1,17 @@
 {
-    "name": "lasuillard/postgres-examples",
-    "image": "mcr.microsoft.com/devcontainers/python:3.0.8-3.13-trixie",
-    "features": {
-        "ghcr.io/devcontainers/features/docker-in-docker:2": {
-            "moby": false
-        }
-    },
-    "onCreateCommand": "./.devcontainer/onCreateCommand.sh",
-    "postAttachCommand": "make install",
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "ldez.ignore-files",
-                "gruntfuggly.todo-tree",
-                "redhat.vscode-yaml",
-                "streetsidesoftware.code-spell-checker",
-                "EditorConfig.EditorConfig",
-                "tamasfe.even-better-toml",
-                "charliermarsh.ruff",
-                "ms-python.mypy-type-checker",
-                "Supabase.postgrestools",
-                "mkhl.shfmt"
-            ]
-        }
+  "name": "lasuillard/aws-rds-rotation",
+  "image": "mcr.microsoft.com/devcontainers/base:dev-trixie",
+  "features": {
+    "ghcr.io/devcontainers/features/nix:1": {
+      "extraNixConfig": "extra-experimental-features = nix-command flakes"
     }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "EditorConfig.EditorConfig",
+        "Supabase.postgrestools"
+      ]
+    }
+  }
 }

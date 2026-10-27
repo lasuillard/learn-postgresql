@@ -1,14 +1,6 @@
 {
-    "recommendations": [
-        "ldez.ignore-files",
-        "gruntfuggly.todo-tree",
-        "redhat.vscode-yaml",
-        "streetsidesoftware.code-spell-checker",
-        "EditorConfig.EditorConfig",
-        "tamasfe.even-better-toml",
-        "charliermarsh.ruff",
-        "ms-python.mypy-type-checker",
-        "supabase.postgrestools",
-        "mkhl.shfmt"
-    ]
+  "recommendations": [
+    "EditorConfig.EditorConfig",
+    "Supabase.postgrestools"
+  ]
 }

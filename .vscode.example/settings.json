@@ -1,6 +1,3 @@
 {
-    "postgrestools.enabled": true,
-    "cSpell.words": [
-        "postgrestools"
-    ]
+  "postgrestools.enabled": true
 }
